@@ -1,9 +1,10 @@
-//Main sensor head
+//--------------------------------------------------
+//Main sensor head, Teensy 3.2
 //Three SR04 sonar sensors
 //One SPAD, rotated by a servo
 //Serial feed to bluetooth for debug
 //Serial feed to main processor for drive gear
-
+//--------------------------------------------------
 #include <Wire.h>
 #include <VL53L0X.h>
 #include <Servo.h>
